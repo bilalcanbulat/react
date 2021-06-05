@@ -1,6 +1,7 @@
 // React'ın temel kutuphaneleri
 import React from "react";
 import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // App modulunun eklenmesi
 import App from "./App";
