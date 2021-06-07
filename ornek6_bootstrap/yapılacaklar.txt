@@ -2,5 +2,5 @@ npm install react-bootstrap
 npm install --save bootstrap 
 
 import 'bootstrap/dist/css/bootstrap.min.css'; (index.js veya app.js'ye eklenecek)
-import {Card, Button} from "react-bootstrap";
+import {Card, Button} from "react-bootstrap"; kullanılan yerde.
 
