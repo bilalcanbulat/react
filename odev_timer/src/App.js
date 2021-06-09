@@ -52,7 +52,7 @@ useEffect(() => {
       <section className="timer">
       <div className="timer-1">
         <span className="timer-icon"><img src={Bell} width="100px"/> </span>
-        <h2>Countdown Timer</h2>
+        <h2>Zamanlayıcı</h2>
         <p>Gerçek zamanlı zamanlayıcı. Ne kadar zaman kaldığını görün...</p>
       </div>
       <div className="anaTimer">
@@ -60,17 +60,17 @@ useEffect(() => {
         <p>{timerDays}</p>
         <p><small>Days</small></p>
       </section>
-      <span>:</span>
+      <p><br/>:</p>
       <section>
         <p>{timerHours}</p>
         <p><small>Hours</small></p>
       </section>
-      <span>:</span>
+      <p><br/>:</p>
       <section>
         <p>{timerMinutes}</p>
         <p><small>Minutes</small></p>
       </section>
-      <span>:</span>
+      <p><br/>:</p>
       <section>
         <p>{timerSeconds}</p>
         <p><small>Second</small></p>

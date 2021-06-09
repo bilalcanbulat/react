@@ -7,6 +7,7 @@ body{
     font-size: 100%;
 }
 
+
 .timer-container {
     background-image: url('./background.jpeg');
     background-position: center;
@@ -20,6 +21,7 @@ body{
 .timer {
     background-color:rgba(0,0,0,0.5);
     display: flex;
+    align-items: center;
     flex: column;
     align-items: center;
     justify-content: center;
