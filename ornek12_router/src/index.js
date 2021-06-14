@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 ReactDOM.render(
   <React.StrictMode>
     <App /> {/* App modulunun cagrilmasi */}
+    <App /> {/* App modulunun cagrilmasi */}
   </React.StrictMode>,
   document.getElementById("root")
 );
