@@ -20,13 +20,13 @@ const startTimer=()=>{
 const interval =setInterval(()=>{
 const now = new Date().getTime();
 console.log(now);
-const distance =countdownDate-now;
-const days=Math.floor(distance /(1000*60*60*24));
-const hours=Math.floor(distance %(1000*60*60*24)/(1000*60*60));
-const minutes=Math.floor(distance % (1000*60*60)/(1000*60));
-const seconds=Math.floor(distance %(1000*60)/1000);
+const fark =countdownDate-now;
+const days=Math.floor(fark /(1000*60*60*24));
+const hours=Math.floor(fark %(1000*60*60*24)/(1000*60*60));
+const minutes=Math.floor(fark % (1000*60*60)/(1000*60));
+const seconds=Math.floor(fark %(1000*60)/1000);
 
-if (distance<0) {
+if (fark<0) {
   clearInterval(interval.current);
 }else{
   setTimerDays(days);
