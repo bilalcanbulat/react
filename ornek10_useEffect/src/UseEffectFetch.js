@@ -16,7 +16,7 @@ function UseEffectFetch() {
     <h1 className="bg-warning" >ÜLKE BİLGİLERİ</h1>
        { ulkeler.map((ulke)=> {
            return (
-               <div > 
+               <div key={ulke.id}> 
                <img src={ulke.flag} alt="" width="30%" />
                <h2>{ulke.name} </h2>
                <p>{ulke.capital}</p>
